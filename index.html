@@ -380,7 +380,23 @@
                             </select>
                         </div>
 
+                        <!-- Quick Presets -->
                         <div>
+                            <span class="text-[10px] font-semibold text-slate-400 block mb-1.5">Gợi ý lương nhanh:</span>
+                            <div class="flex flex-wrap gap-1.5">
+                                <button type="button" onclick="setPresetWage(25000)" class="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-xs font-semibold rounded-xl text-slate-300 active:scale-95 transition-transform">25,000đ</button>
+                                <button type="button" onclick="setPresetWage(30000)" class="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-xs font-semibold rounded-xl text-slate-300 active:scale-95 transition-transform">30,000đ</button>
+                                <button type="button" onclick="setPresetWage(40000)" class="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-xs font-semibold rounded-xl text-slate-300 active:scale-95 transition-transform">40,000đ</button>
+                                <button type="button" onclick="setPresetWage(50000)" class="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-xs font-semibold rounded-xl text-slate-300 active:scale-95 transition-transform">50,000đ</button>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-500 active:scale-95 transition-transform text-slate-950 font-black py-3.5 rounded-2xl shadow-lg text-sm mt-2 flex items-center justify-center gap-1.5">
+                            <i class="fa-solid fa-floppy-disk text-base"></i> Lưu Cài Đặt Lương
+                        </button>
+                    </form>
+                </div>
+
                 <!-- Data Backup & Restore -->
                 <div class="bg-slate-900/80 border border-white/10 p-5 rounded-3xl space-y-3 backdrop-blur-md">
                     <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider">Lưu Trữ & Khôi Phục Dữ Liệu</h4>
